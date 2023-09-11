@@ -4,3 +4,39 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Light-gray);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--Grayish-blue);
+}
+
+.attribution {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
